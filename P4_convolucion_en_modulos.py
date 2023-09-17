@@ -1,20 +1,55 @@
-from keras.utils import load_img, img_to_array, array_to_img, save_img #alternative 2
+from keras.utils import load_img, img_to_array, array_to_img, save_img  # alternative 2
 
-def getArrayImagen(nombre_archivo, largo = 500, alto = 500):
-    img_original = load_img(file, target_size = (largo, alto),color_mode = "grayscale")
+
+def getArrayImagen(nombre_archivo, largo=500, alto=500):
+    img_original = load_img(file, target_size=(largo, alto), color_mode="grayscale")
     img_en_arreglo = img_to_array(img_original)  # filas, columnas, canales de colores
     return img_en_arreglo
 
-def convolucionar(img_a_convolucinar, kernel_type="blur",largo = 500, alto = 500):
+
+def convolucionar(img_a_convolucinar, kernel_type="sharpen", largo=500, alto=500):
     break_convolution = 1
     match kernel_type:
-        case "blur":
+        case "box":
             kernel = [
                 [1, 1, 1],
                 [1, 1, 1],
                 [1, 1, 1]
             ]
             div = 9
+            break_convolution = 0
+        case "ridge":
+            kernel = [
+                [0, -1, 0],
+                [-1, 4, -1],
+                [0, -1, 0]
+            ]
+            div = 1
+            break_convolution = 0
+        case 'edge':
+            kernel = [
+                [-1, -1, -1],
+                [-1, 8, -1],
+                [-1, -1, -1]
+            ]
+            div = 1
+            break_convolution = 0
+        case 'sharpen':
+            kernel = [
+                [0, -1, 0],
+                [-1, 5, -1],
+                [0, -1, 0]
+            ]
+            div = 1
+            break_convolution = 0
+
+        case 'gauss':
+            kernel = [
+                [1, 2, 1],
+                [2, 4, 2],
+                [1, 2, 1]
+            ]
+            div = 16
             break_convolution = 0
         case _:
             print("kernel no valido")
@@ -39,8 +74,9 @@ def convolucionar(img_a_convolucinar, kernel_type="blur",largo = 500, alto = 500
     else:
         return None
 
+
 def plotImages(imgOrginal, imgConvolucionada):
-    #plot - 2 imagenes
+    # plot - 2 imagenes
     import matplotlib.pyplot as plt
     plt.figure(figsize=(15, 10))
 
@@ -57,17 +93,16 @@ def plotImages(imgOrginal, imgConvolucionada):
     plt.show()
 
 
-file = './FIT V.jpg'
-#file = './gato.jpeg'
+file = './gato.jpeg'
+# file = './gato.jpeg'
 
 img_array = getArrayImagen(file)
 print(img_array.shape)
 
-img_conv = convolucionar(img_array, kernel_type="blur")
-if not  img_conv is None:
+img_conv = convolucionar(img_array, kernel_type="sharpen")
+if not img_conv is None:
     print(img_conv.size)
 
-    #plotImages(img_array, img_conv)
-
-
-#save_img('imagen_convolucionada.jpg', img_to_array(img_conv))
+    plotImages(img_array, img_conv)
+1
+save_img('imagen_convolucionada.jpg', img_to_array(img_conv))
