@@ -7,7 +7,7 @@ from keras.utils import load_img, img_to_array #alternative 2
 
 from keras.models import load_model
 
-alto, largo = 500, 500
+alto, largo = 300, 300
 modelo = './modelo/modelo.h5'
 pesos = './modelo/pesos.h5'
 
@@ -24,33 +24,11 @@ def predict(file):
 
     match respuesta:
         case 0:
-            return 'P1-Armendariz'
+            return 'Persona_1'
         case 1:
-            return 'P10-Lopez'
+            return 'Persona_2'
         case 2:
-            return 'P11-Hernandez'
-        case 3:
-            return 'P12-Salas'
-        case 4:
-            return 'P13-Ruiz'
-        case 5:
-            return 'P14-Luna'
-        case 6:
-            return 'P2-Avila'
-        case 7:
-            return 'P3-Carrera'
-        case 8:
-            return 'P4-Sanchez'
-        case 9:
-            return 'P5-Torres'
-        case 10:
-            return 'P6-Cueto'
-        case 11:
-            return 'P7-Tadeo'
-        case 12:
-            return 'P8-Piñeiro'
-        case 13:
-            return 'P9-Latofski'
+            return 'Persona_3'
         case _:
             return '----'
 

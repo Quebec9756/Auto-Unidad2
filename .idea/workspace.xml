@@ -4,53 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f66bf95-237e-44d9-99b6-ae2c3baab1f6" name="Changes" comment="Act">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_0/gato3_conFiltro_0.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_0/gato3_conMaxPooling_0.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_0/gato4_conFiltro_0.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_0/gato4_conMaxPooling_0.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_1/gato3_conFiltro_1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_1/gato3_conMaxPooling_1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_1/gato4_conFiltro_1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_1/gato4_conMaxPooling_1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_2/gato3_conFiltro_2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_2/gato3_conMaxPooling_2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_2/gato4_conFiltro_2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_2/gato4_conMaxPooling_2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_3/gato3_conFiltro_3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_3/gato3_conMaxPooling_3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_3/gato4_conFiltro_3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_3/gato4_conMaxPooling_3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_4/gato3_conFiltro_4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_4/gato3_conMaxPooling_4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_4/gato4_conFiltro_4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_1/Kernel_4/gato4_conMaxPooling_4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_0/gato0_conFiltro_0.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_0/gato0_conMaxPooling_0.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_0/gato1_conFiltro_0.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_0/gato1_conMaxPooling_0.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_1/gato0_conFiltro_1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_1/gato0_conMaxPooling_1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_1/gato1_conFiltro_1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_1/gato1_conMaxPooling_1.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_2/gato0_conFiltro_2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_2/gato0_conMaxPooling_2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_2/gato1_conFiltro_2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_2/gato1_conMaxPooling_2.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_3/gato0_conFiltro_3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_3/gato0_conMaxPooling_3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_3/gato1_conFiltro_3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_3/gato1_conMaxPooling_3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_4/gato0_conFiltro_4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_4/gato0_conMaxPooling_4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_4/gato1_conFiltro_4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CreaCarpetas/Persona_2/Kernel_4/gato1_conMaxPooling_4.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/T1_Conv y Pool.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+    <list default="true" id="9f66bf95-237e-44d9-99b6-ae2c3baab1f6" name="Changes" comment="Actualizacion">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P5_aplica_maxpooling.py" beforeDir="false" afterPath="$PROJECT_DIR$/P5_aplica_maxpooling.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/P6_creaacion_carpetas.py" beforeDir="false" afterPath="$PROJECT_DIR$/P6_creaacion_carpetas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +189,7 @@
       <workItem from="1694896880037" duration="483000" />
       <workItem from="1694915111922" duration="1051000" />
       <workItem from="1694918792311" duration="2335000" />
-      <workItem from="1694977359821" duration="15331000" />
+      <workItem from="1694977359821" duration="15740000" />
     </task>
     <task id="LOCAL-00001" summary="Act">
       <option name="closed" value="true" />
@@ -243,7 +199,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694984703197</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Actualizacion">
+      <option name="closed" value="true" />
+      <created>1695005572063</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695005572063</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +227,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Act" />
-    <option name="LAST_COMMIT_MESSAGE" value="Act" />
+    <MESSAGE value="Actualizacion" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Auto_Unidad2$P7_Take_Picture.coverage" NAME="P7_Take_Picture Coverage Results" MODIFIED="1694918680586" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

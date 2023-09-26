@@ -14,11 +14,11 @@ data_entrenamiento = './Entrenamiento'
 data_validacion = './Prueba'
 
 #Parametros
-epocas = 50
+epocas = 10
 alto, largo = 300, 300 #dimensiones de las imagenes. Para redimenzionar
 batch_size = 2 #numero de imagenes que se mandara a procesar por cada paso
-pasos = 25
-pasos_validacion = 10
+pasos = 20
+pasos_validacion = 6
 
 kernel1 = (3, 3)
 kernel2 = (2, 2)
@@ -30,7 +30,7 @@ tot_kernels3 = 128
 
 stride = (2, 2) #para MaxPooling
 
-clases = 5 #total de clases a clasificar
+clases = 3 #total de clases a clasificar
 
 lr = 0.0005 #learning rate
 

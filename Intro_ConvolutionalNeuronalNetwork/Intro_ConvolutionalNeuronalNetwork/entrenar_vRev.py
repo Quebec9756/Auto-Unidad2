@@ -8,10 +8,14 @@ from keras.layers import Dropout, Flatten, Dense, Activation #
 from keras.layers import Convolution2D, MaxPooling2D # capaz de la red neuronal
 from keras import backend as K
 
+
+
+
+
 K.clear_session()
 
-data_entrenamiento = './Entrenamiento'
-data_validacion = './Prueba'
+data_entrenamiento = './Entrenamiento_Prueba_Original/Entrenamiento'
+data_validacion = './Entrenamiento_Prueba_Original/Prueba'
 
 #Parametros
 epocas = 15
@@ -30,7 +34,7 @@ tot_kernels3 = 128
 
 stride = (2, 2) #para MaxPooling
 
-clases = 14 #total de clases a clasificar
+clases = 6 #total de clases a clasificar
 
 lr = 0.0005 #learning rate
 

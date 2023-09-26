@@ -116,6 +116,3 @@ def applyMaxPooling(img_array, stride=3):
 
 file = './gato.jpeg'
 applyAndSaveKernels(file)
-
-
-
