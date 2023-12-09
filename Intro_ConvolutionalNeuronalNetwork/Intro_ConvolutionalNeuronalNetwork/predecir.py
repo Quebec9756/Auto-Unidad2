@@ -1,10 +1,8 @@
 import os
-
 import numpy as np
 #from keras.preprocessing.image import load_img, img_to_array  #deprecated en tf 2.9
 #from tensorflow.keras.utils import load_img  #alternative 1
 from keras.utils import load_img, img_to_array #alternative 2
-
 from keras.models import load_model
 
 alto, largo = 300, 300

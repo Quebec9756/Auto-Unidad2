@@ -68,7 +68,6 @@ imagen_prueba = prueba_datagen.flow_from_directory(
 )
 
 #red convolucional
-
 cnn = Sequential()
 
 ##capa 1

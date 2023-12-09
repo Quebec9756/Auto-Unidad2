@@ -14,15 +14,15 @@ from keras import backend as K
 
 K.clear_session()
 
-data_entrenamiento = './Entrenamiento_Prueba_Original/Entrenamiento'
-data_validacion = './Entrenamiento_Prueba_Original/Prueba'
+data_entrenamiento = './Entrenamiento'
+data_validacion = './Prueba'
 
 #Parametros
 epocas = 15
 alto, largo = 500, 500 #dimensiones de las imagenes. Para redimenzionar
-batch_size = 5 #numero de imagenes que se mandara a procesar por cada paso
-pasos = 25
-pasos_validacion = 10
+batch_size = 10 #numero de imagenes que se mandara a procesar por cada paso
+pasos = 12
+pasos_validacion = 15
 
 kernel1 = (3, 3)
 kernel2 = (3, 3)
@@ -34,7 +34,7 @@ tot_kernels3 = 128
 
 stride = (2, 2) #para MaxPooling
 
-clases = 6 #total de clases a clasificar
+clases = 3 #total de clases a clasificar
 
 lr = 0.0005 #learning rate
 
@@ -108,4 +108,3 @@ if not os.path.exists(dir):
     os.mkdir(dir)
 cnn.save(dir + 'modelo.h5') #estructura
 cnn.save_weights(dir + 'pesos.h5') #pesos en las capas
-

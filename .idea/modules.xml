@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/.idea/Auto-Unidad2.iml" filepath="$PROJECT_DIR$/.idea/Auto-Unidad2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../pythonProject/.idea/pythonProject.iml" filepath="$PROJECT_DIR$/../pythonProject/.idea/pythonProject.iml" />
+=======
       <module fileurl="file://$PROJECT_DIR$/.idea/Unidad2.iml" filepath="$PROJECT_DIR$/.idea/Unidad2.iml" />
+>>>>>>> parent of 996e775 (Unidad 2)
     </modules>
   </component>
 </project>

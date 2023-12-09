@@ -8,7 +8,6 @@ def getArrayImagen(nombre_archivo, largo=500, alto=500):
 
 
 def convolucionar(img_a_convolucinar, kernel_type="sharpen", largo=500, alto=500):
-    break_convolution = 1
     match kernel_type:
         case "box":
             kernel = [
@@ -104,5 +103,5 @@ if not img_conv is None:
     print(img_conv.size)
 
     plotImages(img_array, img_conv)
-1
-save_img('imagen_convolucionada.jpg', img_to_array(img_conv))
+
+#save_img('imagen_convolucionada.jpg', img_to_array(img_conv))
